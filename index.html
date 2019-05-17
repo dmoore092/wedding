@@ -10,33 +10,94 @@
     <script src="assets/js/main.js"></script>
 
     <!-- Slick Nav -->
-    <link rel="stylesheet" href="assets/js/SlickNav-Master/dist/slicknav.css" />
-    <script src="assets/js/SlickNav-master/dist/jquery.slicknav.js"></script>
+    <link rel="stylesheet" href="/assets/js/SlickNav-master/dist/slicknav.css" />
+    <script src="/assets/js/SlickNav-master/dist/jquery.slicknav.js"></script>
 
     <title>Sam And Dale's Wedding Website</title>
 </head>
 <body>
     <section id="home">
         <h1 id="title">Sam And Dale</h1>
-        <p>Follow our wedding journey on Instagram! <a href="http://instagram.com/tags/paramooredr20">#ParaMooreDR20</a></p>
+        <p id="igram">Follow our wedding journey on Instagram! <a href="http://instagram.com/tags/paramooredr20" target=_blank>#ParaMooreDR20</a></p>
         <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#wedding">Wedding</a></li>
-                <li><a href="#resort">Resort</a></li>
+                <!-- <li><a href="#resort">Resort</a></li> -->
                 <li><a href="#travel">Travel</a></li>
                 <li><a href="#photos">Photos</a></li>
             </ul>
             <figure>
                 <img id="hero-img" src="assets/images/IMG_5207_.jpg" alt="empty sandy beach, with beautiful blue sky">
-                <figcaption>March 24th, 2020 - La Romana, Dominican Republic</figcaption>
+                <figcaption>March 7th-14th, 2020 - La Romana, Dominican Republic</figcaption>
             </figure>
+            <div id="story">
+                <h4>Our Story</h4>
+                <p>
+                    We first met in November, 2011, when Dale came to the rescue for Sam while she was interpreting a tough phone 
+                    call at work.  Although both of us were working interpreters at Sorenson and in the community we had never met.  
+                    After a quick introduction we worked together for over an hour before Dale was done for the day.  
+                    A half hour later Sam was able to take a break, only to find Dale still there and talking with our boss 
+                    (colleague and friend) Jo Ellen.  Sam yelled into the office “He’s awesome!” and ran off to take her break.  
+                    Sam later found out that he was in there talking with Jo Ellen about her!  
+                    Jo Ellen played match-maker, and soon after we began dating.
+                </p>
+                <p>
+                    Flash forward 6 years later, we were engaged on December 1, 2018 overlooking Seneca Lake.  
+                    We have happily shared a home together with our 2 cats, Sadie and Leah, since June, 2015.  
+                    We both share a love of travel and enjoy staying in AirBnB’s and experiencing the local culture of our destination.  
+                    We have traveled to Puerto Rico multiple times, the Dominican Republic twice, and had an amazing European 
+                    adventure to Germany, Poland, and Italy in 2016.
+                </p>
+                <p>
+                    We look forward to sharing our Wedding Week with our guests in La Romana March 7-14, 2020!
+                </p>
+            </div>
     </section>
     <section id="wedding">
-        <p>Wedding</p>
-        <a href="#" class="return">Home</a>
-    </section>
-    <section id="resort">
-        <p>Resort</p>
+        <figure>
+            <figcaption><a href="https://www.dreamsresorts.com/en_us/resorts/dominican-republic/dominicus.html" target=_blank>Dreams Dominicus, La Romana Dominican Republic</a></figcaption>
+            <img src="/assets/images/laromana.jpg" alt="dreams, la romana resort" id="laromana">
+        </figure>
+        <div id="wedding-details">
+            <h4>Wedding Schedule</h4>
+            <ul>
+                <li>Date: March 11, 2020</li>
+                <li>First Look: 3:30pm</li>
+                <li>Ceremony: 4:00pm</li>
+                <li>Cocktail hour and reception to follow</li>
+            </ul>
+            <h4>Wedding Party</h4>
+            <div id="wedding-party">
+                <div id="bride-side">
+                    <figure id="michelle" class="wparty">
+                            <img src="https://via.placeholder.com/150" alt="picture of Michelle">
+                            <figcaption>Matron of Honor</figcaption>
+                    </figure>
+                    <figure id="emma" class="wparty">
+                            <img src="https://via.placeholder.com/150" alt="picture of emma">
+                            <figcaption>Bridesmaid</figcaption>
+                    </figure>
+                    <figure id="lizzy" class="wparty">
+                            <img src="https://via.placeholder.com/150" alt="picture of lizzy">
+                            <figcaption>Bridesmaid</figcaption>
+                    </figure>
+                </div>
+                <div id="groom-side" class="wparty">
+                    <figure id="jason">
+                            <img src="https://via.placeholder.com/150" alt="picture of jason">
+                            <figcaption>Best Man</figcaption>
+                    </figure>
+                    <figure id="justin" class="wparty">
+                            <img src="https://via.placeholder.com/150" alt="picture of justin">
+                            <figcaption>Groomsman</figcaption>
+                    </figure>
+                    <figure id="steven" class="wparty">
+                            <img src="https://via.placeholder.com/150" alt="picture of steven">
+                            <figcaption>Groomsman</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
         <a href="#" class="return">Home</a>
     </section>
     <section id="travel">

@@ -10,7 +10,14 @@ section > .return{
     position: absolute;
     bottom:0;
 }
+section{
+    height: 100vh;
+    position: relative;
+}
 /* section Home */
+#home{
+    height: 160vh;
+}
 #title{
     display: block;
     width: 80%;
@@ -27,28 +34,76 @@ section > .return{
     margin-top: 10px;
     /* border: 2px solid black; */
 }
-#home p{
+/* #home p{
     width: 80%;
     text-align: center;
     margin: auto;
-}
+} */
 #menu {
 	display: none;
 }
 .slicknav_menu {
     display: block;
 }
-section{
-    height: 100vh;
-    position: relative;
+#igram{
+    text-align: center;
+    font-size: .75rem;
 }
+
 figcaption{
     width: 80%;
     margin: auto;
     margin-top: 10px;
     text-align: center;
 }
+#story{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+#story h4{
+    text-align: center;
+    margin-top: 20px;
+}
+#story p{
+    margin-top: 20px;
+    
+}
 /* end of Section Home */
+/* section wedding */
+#wedding{
+    height: 220vh;
+}
+#laromana{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+#wedding-details{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#wedding-details li{
+    list-style-type: none;
+}
+#wedding-party{
+    /* border: 2px solid black; */
+    padding-left: 0;
+    /* text-decoration: underline; */
+}
+#wedding-details h4{
+    margin-top: 50px;
+}
+#wedding-party figure{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 250px;
+    display: flex;
+    margin-top: 40px;
+}
+
 @media only screen  and (min-width : 1224px) {
     /* Styles */
     body{
@@ -71,5 +126,33 @@ figcaption{
     }
     #hero-img{
         width: 60%;
+    }
+    #laromana{
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    #home{
+        height: 155vh;
+    }
+    #story{
+        width: 60%;
+    }
+    #wedding{
+        height: 180vh;
+    }
+    #wedding-details{
+        width: 60%;
+    }
+    #wedding-party{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    #wedding-party figure{
+        width: 300px;
+    }
+    #groom-side{
+        margin-left: 100px;
     }
 }
