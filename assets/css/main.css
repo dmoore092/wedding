@@ -68,7 +68,7 @@ figcaption{
 }
 #story p{
     margin-top: 20px;
-    
+    /* text-align: center; */
 }
 /* end of Section Home */
 /* section wedding */
@@ -103,7 +103,48 @@ figcaption{
     display: flex;
     margin-top: 40px;
 }
-
+/* end wedding */
+/* begin travel */
+#travel{
+    height: 220vh;
+}
+#travel-plane{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+#pcairport{
+    width: 60%;
+}
+#airport-info{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+#travel p{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+#travel h4{
+    /* width: 80%; */
+    text-align: center;
+    margin-top: 50px;
+}
+@media only screen  and (min-width : 400px) {
+    #wedding-details{
+        width: 60%;
+    }
+    #wedding-party figure{
+        width: 300px;
+    }
+    #groom-side{
+        /* margin-left: 100px; */
+    }
+}
+/* 1224px */
 @media only screen  and (min-width : 1224px) {
     /* Styles */
     body{
@@ -154,5 +195,14 @@ figcaption{
     }
     #groom-side{
         margin-left: 100px;
+    }
+    #travel-plane{
+        width: 60%;
+    }
+    #airport-info{
+        width: 60%;
+    }
+    #travel p{
+        width: 60%;
     }
 }
