@@ -2,21 +2,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
+
 body{
-    /* background: #F7AE38; */
+    background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100% auto; */
+    /* background-position: center; */
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+h1,h3,h4{
+    font-family: 'Lobster', cursive;
 }
 section > .return{
     position: absolute;
     bottom:0;
 }
-section{
+/* section{
     height: 100vh;
     position: relative;
-}
+} */
 /* section Home */
 #home{
-    height: 160vh;
+    height: 1250px;
 }
 #title{
     display: block;
@@ -34,11 +48,6 @@ section{
     margin-top: 10px;
     /* border: 2px solid black; */
 }
-/* #home p{
-    width: 80%;
-    text-align: center;
-    margin: auto;
-} */
 #menu {
 	display: none;
 }
@@ -73,7 +82,7 @@ figcaption{
 /* end of Section Home */
 /* section wedding */
 #wedding{
-    height: 220vh;
+    height: 2250px;
 }
 #laromana{
     display: block;
@@ -85,13 +94,56 @@ figcaption{
     margin: auto;
     margin-top: 50px;
 }
-#wedding-details li{
+#wedding-schedule li{
     list-style-type: none;
+}
+#hotel-info li{
+    list-style-type: square;
 }
 #wedding-party{
     /* border: 2px solid black; */
     padding-left: 0;
     /* text-decoration: underline; */
+}
+.wedding-party-img-containers{
+    overflow: hidden;
+    width: 175px;
+    height: 110px;
+    /* border: 2px solid red; */
+    border-radius: 10%;
+}
+#steven img, #justin img,
+#jason img{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    margin-left: -40px;
+    margin-top: -30px;
+
+}
+#michelle img{
+    width: 450px;
+    height: auto;
+    margin-left: -180px;
+    margin-top: 30px;
+    transform: rotate(90deg);
+}
+#emma img{
+    width: 300px;
+    height: auto;
+    margin-left: -150px;
+    margin-top: 0px;
+}
+#lizzy img{
+    width: 200px;
+    height: auto;
+    margin-left: -43px;
+    margin-top: 0px;
+}
+#jason img{
+    margin-left: -40px;
+    margin-top: -60px;
+
 }
 #wedding-details h4{
     margin-top: 50px;
@@ -115,6 +167,7 @@ figcaption{
 }
 #pcairport{
     width: 60%;
+    height: auto;
 }
 #airport-info{
     /* border: 2px solid black; */
@@ -128,12 +181,16 @@ figcaption{
     margin: auto;
     margin-top: 25px;
 }
-#travel h4{
+#travel h4, h3{
     /* width: 80%; */
     text-align: center;
     margin-top: 50px;
 }
 @media only screen  and (min-width : 400px) {
+    body{
+        background-size: 100% auto;
+        background-position: center; 
+    }
     #wedding-details{
         width: 60%;
     }
@@ -180,7 +237,7 @@ figcaption{
         width: 60%;
     }
     #wedding{
-        height: 180vh;
+        height: 230vh;
     }
     #wedding-details{
         width: 60%;
@@ -192,6 +249,12 @@ figcaption{
     }
     #wedding-party figure{
         width: 300px;
+    }
+    #michelle img{
+        transform: rotate(90deg);
+    }
+    #lizzy img{
+        margin-left: -30px;
     }
     #groom-side{
         margin-left: 100px;

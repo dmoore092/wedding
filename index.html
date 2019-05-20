@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta author="Dale Moore">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -13,11 +13,15 @@
     <link rel="stylesheet" href="/assets/js/SlickNav-master/dist/slicknav.css" />
     <script src="/assets/js/SlickNav-master/dist/jquery.slicknav.js"></script>
 
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Serif&display=swap" rel="stylesheet"> 
+
     <title>Sam And Dale's Wedding Website</title>
 </head>
 <body>
     <section id="home">
-        <h1 id="title">Sam And Dale</h1>
+        <h1 id="title">Sam and Dale</h1>
         <p id="igram">Follow our wedding journey on Instagram! <a href="http://instagram.com/tags/paramooredr20" target=_blank>#ParaMooreDR20</a></p>
         <ul id="menu">
                 <li><a href="#home">Home</a></li>
@@ -31,7 +35,7 @@
                 <figcaption>March 7th-14th, 2020 - La Romana, Dominican Republic</figcaption>
             </figure>
             <div id="story">
-                <h4>Our Story</h4>
+                <h3>Our Story</h3>
                 <p>
                     We first met in November, 2011, when Dale came to the rescue for Sam while she was interpreting a tough phone 
                     call at work.  Although both of us were working interpreters at Sorenson and in the community we had never met.  
@@ -60,45 +64,78 @@
         </figure>
         <div id="wedding-details">
             <h4>Wedding Schedule</h4>
-            <ul>
+            <ul id="wedding-schedule">
                 <li>Date: March 11, 2020</li>
                 <li>First Look: 3:30pm</li>
                 <li>Ceremony: 4:00pm</li>
                 <li>Cocktail hour and reception to follow</li>
             </ul>
+            <h4>Hotel Information</h4>
+            <ul id="hotel-info">
+                <li>Resort wide WIFI Access</li>
+                <li>Beach bar, 2 pool bars/1 swim-up bar, Preferred guests beach bar, lobby bar</li>
+                <li>4 a la carte restaurants, World Cafe buffet (breakfast, lunch, dinner daily), Premium coffee and snack bar</li>
+                <li>Infinity pool overlooking the beach, 2 additional resort pools, preferred guests pool</li>
+                <li>Fitness center with cardio machines, strength machines and free weights</li>
+                <li>Kayaks, snorkeling, scuba diving and other water activities available</li>
+            </ul>
             <h4>Wedding Party</h4>
             <div id="wedding-party">
                 <div id="bride-side">
                     <figure id="michelle" class="wparty">
-                            <img src="https://via.placeholder.com/150" alt="picture of Michelle">
-                            <figcaption>Matron of Honor</figcaption>
+                            <div class="wedding-party-img-containers">
+                                <img src="/assets/images/michelle6.JPG" alt="picture of michelle">
+                            </div>
+                            <figcaption><span style="text-decoration: underline;">Matron of Honor</span> - Michelle Dannenfelser</figcaption>
                     </figure>
                     <figure id="emma" class="wparty">
-                            <img src="https://via.placeholder.com/150" alt="picture of emma">
-                            <figcaption>Bridesmaid</figcaption>
+                        <div class="wedding-party-img-containers">
+                            <img src="/assets/images/emma.JPG" alt="picture of emma">
+                        </div>
+                        <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Emma Warwinsky </figcaption>
                     </figure>
                     <figure id="lizzy" class="wparty">
-                            <img src="https://via.placeholder.com/150" alt="picture of lizzy">
-                            <figcaption>Bridesmaid</figcaption>
+                            <div class="wedding-party-img-containers">
+                                <img src="/assets/images/lizzy.JPG" alt="picture of lizzy">
+                            </div>
+                            <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Elizabeth Takach </figcaption>
+                    </figure>
+                    <figure id="norah" class="wparty">
+                            <div class="wedding-party-img-containers">
+                                <img src="/assets/images/steven.PNG" alt="picture of norah">
+                            </div>
+                                <figcaption><span style="text-decoration: underline;">Flower Girl</span> - Norah Dannenfelser </figcaption>
                     </figure>
                 </div>
                 <div id="groom-side" class="wparty">
                     <figure id="jason">
-                            <img src="https://via.placeholder.com/150" alt="picture of jason">
-                            <figcaption>Best Man</figcaption>
+                        <div class="wedding-party-img-containers">
+                            <img src="/assets/images/jason.PNG" alt="picture of jason">
+                        </div>
+                        <figcaption><span style="text-decoration: underline;">Best Man</span> - <br>Jason Dannenfelser </figcaption>
                     </figure>
                     <figure id="justin" class="wparty">
-                            <img src="https://via.placeholder.com/150" alt="picture of justin">
-                            <figcaption>Groomsman</figcaption>
+                        <div class="wedding-party-img-containers">
+                            <img src="/assets/images/justin.PNG" alt="picture of justin">
+                        </div>
+                        <figcaption><span style="text-decoration: underline;">Groomsman</span> - Justin Laul </figcaption>
                     </figure>
                     <figure id="steven" class="wparty">
-                            <img src="https://via.placeholder.com/150" alt="picture of steven">
-                            <figcaption>Groomsman</figcaption>
+                        <div class="wedding-party-img-containers">
+                            <img src="/assets/images/steven.PNG" alt="picture of steven">
+                        </div>
+                            <figcaption><span style="text-decoration: underline;">Groomsman</span> - Steven Paradise </figcaption>
+                    </figure>
+                    <figure id="colin" class="wparty">
+                            <div class="wedding-party-img-containers">
+                                <img src="/assets/images/steven.PNG" alt="picture of colin">
+                            </div>
+                                <figcaption><span style="text-decoration: underline;">Groomsman</span> - Colin Dannenfelser </figcaption>
                     </figure>
                 </div>
             </div>
         </div>
-        <a href="#" class="return">Home</a>
+        <!-- <a href="#" class="return">Home</a> -->
     </section>
     <section id="travel">
         <figure>
@@ -108,7 +145,7 @@
         <div id="travel-airport">
             <figure id="airport-info">
                 <figcaption>Punta Cana International Airport(PUJ)</figcaption>
-                <img id="pcairport" src="https://www.jeepsafaripuntacana.com/wp-content/uploads/2013/10/punta-cana-airport-punta-cana-dominican-republic.jpg" alt="image of punta cana airport">
+                <img id="pcairport" src="https://www.jeepsafaripuntacana.com/wp-content/uploads/2013/10/punta-cana-airport-punta-cana-dominican-republic.jpg" alt="image of punta cana airport" >
             </figure>
             <h4>Please remember your Passport!</h4>
             <p>
@@ -117,11 +154,11 @@
                 Please let us know how we can help you with that!
             </p>
         </div>
-        <a href="#" class="return">Home</a>
+        <!-- <a href="#" class="return">Home</a> -->
     </section>
     <section id="photos">
         <p>Photos</p>
-        <a href="#" class="return">Home</a>
+        <!-- <a href="#" class="return">Home</a> -->
     </section>
 </body>
 </html>
