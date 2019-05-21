@@ -17,148 +17,169 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Serif&display=swap" rel="stylesheet"> 
 
+    <!-- Flexisel Carosel -->
+    <!-- https://github.com/9bitStudios/flexisel/blob/master/index.html -->
+    <link rel="stylesheet" href="/assets/js/flexisel-master/css/style.css" />
+    <script src="/assets/js/flexisel-master/js/jquery.flexisel.js"></script>
+
+    <!-- lightslider -->
+    <link type="text/css" rel="stylesheet" href="/assets/js/lightslider-master/dist/css/lightslider.css" />                  
+    <script src="/assets/js/lightslider-master/dist/js/lightslider.min.js"></script>
+
     <title>Sam And Dale's Wedding Website</title>
 </head>
-<body>
-    <section id="home">
-        <h1 id="title">Sam and Dale</h1>
-        <p id="igram">Follow our wedding journey on Instagram! <a href="http://instagram.com/tags/paramooredr20" target=_blank>#ParaMooreDR20</a></p>
-        <ul id="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#wedding">Wedding</a></li>
-                <!-- <li><a href="#resort">Resort</a></li> -->
-                <li><a href="#travel">Travel</a></li>
-                <li><a href="#photos">Photos</a></li>
-            </ul>
+    <body>
+        <section id="home">
+            <h1 id="title">Sam and Dale</h1>
+            <p id="igram">Follow our wedding journey on Instagram! <a href="http://instagram.com/tags/paramooredr20" target=_blank>#ParaMooreDR20</a></p>
+            <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#wedding">Wedding</a></li>
+                    <!-- <li><a href="#resort">Resort</a></li> -->
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                </ul>
+                <figure>
+                    <img id="hero-img" src="assets/images/IMG_5207_.jpg" alt="empty sandy beach, with beautiful blue sky">
+                    <figcaption>March 7th-14th, 2020 - La Romana, Dominican Republic</figcaption>
+                </figure>
+                <div id="story">
+                    <h3>Our Story</h3>
+                    <p>
+                        We first met in November, 2011, when Dale came to the rescue for Sam while she was interpreting a tough phone 
+                        call at work.  Although both of us were working interpreters at Sorenson and in the community we had never met.  
+                        After a quick introduction we worked together for over an hour before Dale was done for the day.  
+                        A half hour later Sam was able to take a break, only to find Dale still there and talking with our boss 
+                        (colleague and friend) Jo Ellen.  Sam yelled into the office “He’s awesome!” and ran off to take her break.  
+                        Sam later found out that he was in there talking with Jo Ellen about her!  
+                        Jo Ellen played match-maker, and soon after we began dating.
+                    </p>
+                    <p>
+                        Flash forward 6 years later, we were engaged on December 1, 2018 overlooking Seneca Lake.  
+                        We have happily shared a home together with our 2 cats, Sadie and Leah, since June, 2015.  
+                        We both share a love of travel and enjoy staying in AirBnB’s and experiencing the local culture of our destination.  
+                        We have traveled to Puerto Rico multiple times, the Dominican Republic twice, and had an amazing European 
+                        adventure to Germany, Poland, and Italy in 2016.
+                    </p>
+                    <p>
+                        We look forward to sharing our Wedding Week with our guests in La Romana March 7-14, 2020!
+                    </p>
+                </div>
+        </section>
+        <section id="wedding">
             <figure>
-                <img id="hero-img" src="assets/images/IMG_5207_.jpg" alt="empty sandy beach, with beautiful blue sky">
-                <figcaption>March 7th-14th, 2020 - La Romana, Dominican Republic</figcaption>
+                <figcaption><a href="https://www.dreamsresorts.com/en_us/resorts/dominican-republic/dominicus.html" target=_blank>Dreams Dominicus, La Romana Dominican Republic</a></figcaption>
+                <img src="/assets/images/laromana.jpg" alt="dreams, la romana resort" id="laromana">
             </figure>
-            <div id="story">
-                <h3>Our Story</h3>
-                <p>
-                    We first met in November, 2011, when Dale came to the rescue for Sam while she was interpreting a tough phone 
-                    call at work.  Although both of us were working interpreters at Sorenson and in the community we had never met.  
-                    After a quick introduction we worked together for over an hour before Dale was done for the day.  
-                    A half hour later Sam was able to take a break, only to find Dale still there and talking with our boss 
-                    (colleague and friend) Jo Ellen.  Sam yelled into the office “He’s awesome!” and ran off to take her break.  
-                    Sam later found out that he was in there talking with Jo Ellen about her!  
-                    Jo Ellen played match-maker, and soon after we began dating.
-                </p>
-                <p>
-                    Flash forward 6 years later, we were engaged on December 1, 2018 overlooking Seneca Lake.  
-                    We have happily shared a home together with our 2 cats, Sadie and Leah, since June, 2015.  
-                    We both share a love of travel and enjoy staying in AirBnB’s and experiencing the local culture of our destination.  
-                    We have traveled to Puerto Rico multiple times, the Dominican Republic twice, and had an amazing European 
-                    adventure to Germany, Poland, and Italy in 2016.
-                </p>
-                <p>
-                    We look forward to sharing our Wedding Week with our guests in La Romana March 7-14, 2020!
-                </p>
-            </div>
-    </section>
-    <section id="wedding">
-        <figure>
-            <figcaption><a href="https://www.dreamsresorts.com/en_us/resorts/dominican-republic/dominicus.html" target=_blank>Dreams Dominicus, La Romana Dominican Republic</a></figcaption>
-            <img src="/assets/images/laromana.jpg" alt="dreams, la romana resort" id="laromana">
-        </figure>
-        <div id="wedding-details">
-            <h4>Wedding Schedule</h4>
-            <ul id="wedding-schedule">
-                <li>Date: March 11, 2020</li>
-                <li>First Look: 3:30pm</li>
-                <li>Ceremony: 4:00pm</li>
-                <li>Cocktail hour and reception to follow</li>
-            </ul>
-            <h4>Hotel Information</h4>
-            <ul id="hotel-info">
-                <li>Resort wide WIFI Access</li>
-                <li>Beach bar, 2 pool bars/1 swim-up bar, Preferred guests beach bar, lobby bar</li>
-                <li>4 a la carte restaurants, World Cafe buffet (breakfast, lunch, dinner daily), Premium coffee and snack bar</li>
-                <li>Infinity pool overlooking the beach, 2 additional resort pools, preferred guests pool</li>
-                <li>Fitness center with cardio machines, strength machines and free weights</li>
-                <li>Kayaks, snorkeling, scuba diving and other water activities available</li>
-            </ul>
-            <h4>Wedding Party</h4>
-            <div id="wedding-party">
-                <div id="bride-side">
-                    <figure id="michelle" class="wparty">
+            <div id="wedding-details">
+                <h4>Wedding Schedule</h4>
+                <ul id="wedding-schedule">
+                    <li>Date: March 11, 2020</li>
+                    <li>First Look: 3:30pm</li>
+                    <li>Ceremony: 4:00pm</li>
+                    <li>Cocktail hour and reception to follow</li>
+                </ul>
+                <h4>Hotel Information</h4>
+                <ul id="hotel-info">
+                    <li>Resort wide WIFI Access</li>
+                    <li>Beach bar, 2 pool bars/1 swim-up bar, Preferred guests beach bar, lobby bar</li>
+                    <li>4 a la carte restaurants, World Cafe buffet (breakfast, lunch, dinner daily), Premium coffee and snack bar</li>
+                    <li>Infinity pool overlooking the beach, 2 additional resort pools, preferred guests pool</li>
+                    <li>Fitness center with cardio machines, strength machines and free weights</li>
+                    <li>Kayaks, snorkeling, scuba diving and other water activities available</li>
+                </ul>
+                <h4>Wedding Party</h4>
+                <div id="wedding-party">
+                    <div id="bride-side">
+                        <figure id="michelle" class="wparty">
+                                <div class="wedding-party-img-containers">
+                                    <img src="/assets/images/michelle6.JPG" alt="picture of michelle">
+                                </div>
+                                <figcaption><span style="text-decoration: underline;">Matron of Honor</span> - Michelle Dannenfelser</figcaption>
+                        </figure>
+                        <figure id="emma" class="wparty">
                             <div class="wedding-party-img-containers">
-                                <img src="/assets/images/michelle6.JPG" alt="picture of michelle">
+                                <img src="/assets/images/emma.JPG" alt="picture of emma">
                             </div>
-                            <figcaption><span style="text-decoration: underline;">Matron of Honor</span> - Michelle Dannenfelser</figcaption>
-                    </figure>
-                    <figure id="emma" class="wparty">
-                        <div class="wedding-party-img-containers">
-                            <img src="/assets/images/emma.JPG" alt="picture of emma">
-                        </div>
-                        <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Emma Warwinsky </figcaption>
-                    </figure>
-                    <figure id="lizzy" class="wparty">
+                            <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Emma Warwinsky </figcaption>
+                        </figure>
+                        <figure id="lizzy" class="wparty">
+                                <div class="wedding-party-img-containers">
+                                    <img src="/assets/images/lizzy.JPG" alt="picture of lizzy">
+                                </div>
+                                <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Elizabeth Takach </figcaption>
+                        </figure>
+                        <figure id="norah" class="wparty">
+                                <div class="wedding-party-img-containers">
+                                    <img src="/assets/images/norah.jpg" alt="picture of norah">
+                                </div>
+                                    <figcaption><span style="text-decoration: underline;">Flower Girl</span> - Norah Dannenfelser </figcaption>
+                        </figure>
+                    </div>
+                    <div id="groom-side" class="wparty">
+                        <figure id="jason">
                             <div class="wedding-party-img-containers">
-                                <img src="/assets/images/lizzy.JPG" alt="picture of lizzy">
+                                <img src="/assets/images/jason.PNG" alt="picture of jason">
                             </div>
-                            <figcaption><span style="text-decoration: underline;">Bridesmaid</span> - Elizabeth Takach </figcaption>
-                    </figure>
-                    <figure id="norah" class="wparty">
+                            <figcaption><span style="text-decoration: underline;">Best Man</span> - <br>Jason Dannenfelser </figcaption>
+                        </figure>
+                        <figure id="justin" class="wparty">
                             <div class="wedding-party-img-containers">
-                                <img src="/assets/images/steven.PNG" alt="picture of norah">
+                                <img src="/assets/images/justin.PNG" alt="picture of justin">
                             </div>
-                                <figcaption><span style="text-decoration: underline;">Flower Girl</span> - Norah Dannenfelser </figcaption>
-                    </figure>
-                </div>
-                <div id="groom-side" class="wparty">
-                    <figure id="jason">
-                        <div class="wedding-party-img-containers">
-                            <img src="/assets/images/jason.PNG" alt="picture of jason">
-                        </div>
-                        <figcaption><span style="text-decoration: underline;">Best Man</span> - <br>Jason Dannenfelser </figcaption>
-                    </figure>
-                    <figure id="justin" class="wparty">
-                        <div class="wedding-party-img-containers">
-                            <img src="/assets/images/justin.PNG" alt="picture of justin">
-                        </div>
-                        <figcaption><span style="text-decoration: underline;">Groomsman</span> - Justin Laul </figcaption>
-                    </figure>
-                    <figure id="steven" class="wparty">
-                        <div class="wedding-party-img-containers">
-                            <img src="/assets/images/steven.PNG" alt="picture of steven">
-                        </div>
-                            <figcaption><span style="text-decoration: underline;">Groomsman</span> - Steven Paradise </figcaption>
-                    </figure>
-                    <figure id="colin" class="wparty">
+                            <figcaption><span style="text-decoration: underline;">Groomsman</span> - Justin Laul </figcaption>
+                        </figure>
+                        <figure id="steven" class="wparty">
                             <div class="wedding-party-img-containers">
-                                <img src="/assets/images/steven.PNG" alt="picture of colin">
+                                <img src="/assets/images/steven.PNG" alt="picture of steven">
                             </div>
-                                <figcaption><span style="text-decoration: underline;">Groomsman</span> - Colin Dannenfelser </figcaption>
-                    </figure>
+                                <figcaption><span style="text-decoration: underline;">Groomsman</span> - Steven Paradise </figcaption>
+                        </figure>
+                        <figure id="colin" class="wparty">
+                                <div class="wedding-party-img-containers">
+                                    <img src="/assets/images/steven.PNG" alt="picture of colin">
+                                </div>
+                                    <figcaption><span style="text-decoration: underline;">Groomsman</span> - Colin Dannenfelser </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- <a href="#" class="return">Home</a> -->
-    </section>
-    <section id="travel">
-        <figure>
-            <figcaption>Travel Information</figcaption>
-            <img src="https://parade.com/wp-content/uploads/2017/03/HISOPlaneTicketsFTR.jpg" alt="image of a plane" id="travel-plane">
-        </figure>
-        <div id="travel-airport">
-            <figure id="airport-info">
-                <figcaption>Punta Cana International Airport(PUJ)</figcaption>
-                <img id="pcairport" src="https://www.jeepsafaripuntacana.com/wp-content/uploads/2013/10/punta-cana-airport-punta-cana-dominican-republic.jpg" alt="image of punta cana airport" >
+            <!-- <a href="#" class="return">Home</a> -->
+        </section>
+        <section id="travel">
+            <figure>
+                <figcaption>Travel Information</figcaption>
+                <img src="https://parade.com/wp-content/uploads/2017/03/HISOPlaneTicketsFTR.jpg" alt="image of a plane" id="travel-plane">
             </figure>
-            <h4>Please remember your Passport!</h4>
-            <p>
-                Punta Cana is easily accessible with direct flights from JFK, Philadelphia, and Newark.  
-                Shuttle Service can be arranged through the hotel, which is about 45 minutes from Punta Cana Airport. 
-                Please let us know how we can help you with that!
-            </p>
-        </div>
-        <!-- <a href="#" class="return">Home</a> -->
-    </section>
-    <section id="photos">
-        <p>Photos</p>
-        <!-- <a href="#" class="return">Home</a> -->
-    </section>
-</body>
+            <div id="travel-airport">
+                <figure id="airport-info">
+                    <figcaption>Punta Cana International Airport(PUJ)</figcaption>
+                    <img id="pcairport" src="https://www.jeepsafaripuntacana.com/wp-content/uploads/2013/10/punta-cana-airport-punta-cana-dominican-republic.jpg" alt="image of punta cana airport" >
+                </figure>
+                <h4>Please remember your Passport!</h4>
+                <p>
+                    Punta Cana is easily accessible with direct flights from JFK, Philadelphia, and Newark.  
+                    Shuttle Service can be arranged through the hotel, which is about 45 minutes from Punta Cana Airport. 
+                    Please let us know how we can help you with that!
+                </p>
+            </div>
+            <!-- <a href="#" class="return">Home</a> -->
+        </section>
+        <section id="photos">
+            <h4>Photos</h4>
+            <ul id="myCarousel">
+                <li><img src="/assets/images/emma.JPG" alt=""></li>
+                <li><img src="/assets/images/jason.PNG" alt=""></li>
+                <li><img src="/assets/images/lizzy.JPG" alt=""></li>
+                <li><img src="/assets/images/steven.PNG" alt=""></li>
+                <li><img src="/assets/images/norah.jpg" alt=""></li>
+                <li><img id="carosel-michelle" src="/assets/images/michelle.JPG" alt=""></li>
+                <li><img src="/assets/images/justin.PNG" alt=""></li>
+            </ul>
+            <!-- <a href="#" class="return">Home</a> -->
+        </section>
+    </body>
 </html>
+
+
+
