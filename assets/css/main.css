@@ -6,11 +6,8 @@
 }
 
 body{
-    background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 90%;
-    /* background-position: center; */
+    /* background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg); */
+    background-color: #f0f8ff;
     font-family: 'PT Serif', serif;
 }
 h1{
@@ -107,7 +104,7 @@ figcaption{
     margin-right: 10px;
 }
 #steven img, #justin img,
-#jason img{
+#jason img, #colin img{
     width: 200px;
     height: auto;
     border: 2px solid black;
@@ -143,6 +140,11 @@ figcaption{
 #jason img{
     margin-left: -40px;
     margin-top: -60px;
+
+}
+#colin img{
+    margin-left: -60px;
+    margin-top: -10px;
 
 }
 #wedding-details h4{
@@ -199,6 +201,18 @@ figcaption{
     width: 300px;
     height: auto;
 }
+.rot90{
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.rot180{
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 footer p{
     text-align: center;
     font-size: .75rem;
@@ -209,6 +223,13 @@ footer hr{
     margin-top: 50px;
 }
 @media only screen and (min-width: 768px) {
+    body{
+        background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg);
+        background-attachment: fixed;
+        background-size: 100% 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     section{
         max-width: 900px;
         margin: auto;
