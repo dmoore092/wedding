@@ -199,7 +199,9 @@ figcaption{
 }
 #myCarousel img{
     width: 300px;
-    height: auto;
+    max-height: 200px;
+    overflow-y: hidden;
+    object-fit: scale-down;
 }
 .rot90{
     -moz-transform: rotate(90deg);
