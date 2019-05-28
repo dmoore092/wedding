@@ -227,7 +227,7 @@ footer hr{
         /* background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg); */
         background: url(/assets/images/background.jpg);
         background-attachment: fixed;
-        background-size: 100% 90%;
+        background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
     }
