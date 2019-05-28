@@ -224,7 +224,8 @@ footer hr{
 }
 @media only screen and (min-width: 768px) {
     body{
-        background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg);
+        /* background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg); */
+        background: url(/assets/images/background.jpg);
         background-attachment: fixed;
         background-size: 100% 90%;
         background-position: center;
