@@ -10,6 +10,10 @@ body{
     background-color: #f0f8ff;
     font-family: 'PT Serif', serif;
 }
+img{
+    -webkit-image-orientation: from-image;
+    image-orientation: from-image;
+}
 h1{
     font-weight: lighter;
     font-size: 3rem;
