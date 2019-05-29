@@ -203,18 +203,7 @@ figcaption{
     overflow-y: hidden;
     object-fit: scale-down;
 }
-.rot90{
-    -webkit-transform: -webkit-rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.rot180{
-    -webkit-transform: -webkit-rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
+
 footer p{
     text-align: center;
     font-size: .75rem;
@@ -259,5 +248,17 @@ footer hr{
     }
     #travel{
         height: 700px;
+    }
+    .rot90{
+        -webkit-transform: -webkit-rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .rot180{
+        -webkit-transform: -webkit-rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
     }
 }
