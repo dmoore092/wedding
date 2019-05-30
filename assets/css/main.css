@@ -216,6 +216,21 @@ footer p{
 footer hr{
     margin-top: 50px;
 }
+@supports not (-webkit-overflow-scrolling: touch) {
+    /* CSS for other than iOS devices */ 
+    .rot90{
+        /* -webkit-transform: -webkit-rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg); */
+        transform: rotate(90deg);
+    }
+    .rot180{
+        /* -webkit-transform: -webkit-rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg); */
+        transform: rotate(180deg);
+    }
+  }
 @media only screen and (min-width: 768px) {
     body{
         /* background: url(https://cdn.wallpapersafari.com/6/16/bo73SI.jpg); */
