@@ -207,7 +207,12 @@ figcaption{
     overflow-y: hidden;
     object-fit: scale-down;
 }
-
+.rot90{
+    display: none;
+}
+.rot180{
+    display: none;
+}
 footer p{
     text-align: center;
     font-size: .75rem;
@@ -254,12 +259,14 @@ footer hr{
         height: 700px;
     }
     .rot90{
+        display: block;
         -webkit-transform: -webkit-rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
     .rot180{
+        display: block;
         -webkit-transform: -webkit-rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
