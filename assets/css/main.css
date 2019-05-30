@@ -201,16 +201,16 @@ figcaption{
     transform: rotate(90deg);
     margin-top: 57px;
 }
-#myCarousel img{
+#myCarousel1 img, #myCarousel2 img{
     width: 300px;
     max-height: 200px;
     overflow-y: hidden;
     object-fit: scale-down;
 }
-.rot90{
-    display: none;
+#photos-mobile{
+    display: block;
 }
-.rot180{
+#photos-desktop{
     display: none;
 }
 footer p{
@@ -258,15 +258,19 @@ footer hr{
     #travel{
         height: 700px;
     }
-    .rot90{
+    #photos-mobile{
+        display: none;
+    }
+    #photos-desktop{
         display: block;
+    }
+    .rot90{
         -webkit-transform: -webkit-rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
     .rot180{
-        display: block;
         -webkit-transform: -webkit-rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
