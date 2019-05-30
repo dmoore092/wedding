@@ -11,7 +11,7 @@ window.onload = function() {
      });
 
     $("#myCarousel1").lightSlider({
-        item: 4,
+        item: 1,
         slideMargin: 10,
         thumbMargin: 10,
         autoWidth: true,
@@ -24,14 +24,6 @@ window.onload = function() {
         enableDrag:true,
         freeMove:true,
         pauseOnHover: true,
-        responsive : [{
-            breakpoint:800,
-            settings: {
-            item:1,
-            slideMove:1,
-            slideMargin:6,
-            }
-        }],
     });
 
     $("#myCarousel2").lightSlider({
@@ -48,14 +40,6 @@ window.onload = function() {
         enableDrag:true,
         freeMove:true,
         pauseOnHover: true,
-        responsive : [{
-            breakpoint:800,
-            settings: {
-            item:1,
-            slideMove:1,
-            slideMargin:6,
-            }
-        }],
     });
 }
 
