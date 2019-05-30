@@ -201,17 +201,11 @@ figcaption{
     transform: rotate(90deg);
     margin-top: 57px;
 }
-#myCarousel1 img, #myCarousel2 img{
+#myCarousel img{
     width: 300px;
     max-height: 200px;
     overflow-y: hidden;
     object-fit: scale-down;
-}
-#photos-mobile{
-    display: block;
-}
-#photos-desktop{
-    display: none;
 }
 footer p{
     text-align: center;
@@ -257,12 +251,6 @@ footer hr{
     }
     #travel{
         height: 700px;
-    }
-    #photos-mobile{
-        display: none;
-    }
-    #photos-desktop{
-        display: block;
     }
     .rot90{
         -webkit-transform: -webkit-rotate(90deg);
